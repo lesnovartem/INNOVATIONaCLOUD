@@ -1,0 +1,181 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, sans-serif;
+}
+.container {
+	max-width: 1224px;
+	margin: 0 auto;
+}
+h1	{
+	text-align: center;
+	font-family: 'Poiret One', sans-serif;
+}
+
+/*=====Подраздел promo=====*/
+.promo {
+	padding-top: 200px;
+	padding-bottom: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 85vh;
+	background-image: url(../img/header.jpg);
+	background-size: 100%;
+
+}
+.promo h1 {
+	font-size: 8rem;
+	font-weight: 600;
+	padding-bottom: 40px;
+	color: white;
+	font-weight:bold;
+
+}
+.promo p {
+	font-family: 'Poiret One', sans-serif;
+	font-size: 1.5rem;
+	font-weight: 500;
+	text-align: center;
+	color: white;
+}
+
+/*=====Навигация nav=====*/
+.menu {
+	position: relative;
+	color: white; /*задаём цвет ссылки*/
+	cursor: pointer;
+	line-height: 1; /*задаём высоту строки*/
+	text-decoration: none; /*убираем подчёркивание*/
+}
+.menu{
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 20px;
+}
+nav {
+	position: sticky;
+	padding-top: 32px;
+	padding-bottom: 32px;
+	background-color:black;
+}
+nav ul {
+	display: flex;
+	max-width: 980px;
+	margin-left:173px;
+	list-style: none;
+}
+li
+{
+	margin-right: 22px;
+}
+.img img
+{
+	height: 50px;
+}
+.about-wrap
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 82px;
+
+}
+
+.connected
+{
+	padding-top: 200px;
+	padding-bottom: 200px;
+	display: flex;
+	flex-direction: column;
+	text-align: right;
+	height: 90vh;
+	background-image: url(../img/R3xF_CnI8t0.jpg);
+}
+/*=====Раздел footer=====*/
+footer {
+	background-color: black;
+}
+.footer-wrap {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	color: white;
+}
+.bt a
+{
+	text-decoration: none;
+	color: white;
+}
+.bt
+{
+	background-color: black;
+	padding:12px;
+	padding-left:40px; 
+	padding-right:40px; 
+}
+.bt
+{
+
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.bt:hover {
+	background-color: blue;
+}
+
+.bt:active {
+  background-color: #2b2b2b;
+}
+
+
+.bt-2 a
+{
+	text-decoration: none;
+	color: white;
+}
+.bt-2
+{
+	background-color: black;
+	padding:12px;
+	padding-left:40px; 
+	padding-right:40px; 
+	margin-left: 1750px;
+}
+.bt-2
+{
+
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.bt-2:hover {
+	background-color: blue;
+}
+
+.bt-2:active {
+  background-color: #2b2b2b;
+}
+
+.about-title
+{
+	margin-top:82px;
+	margin-left: 770px;
+}
+
+.img_qwe
+{
+	border: 8px solid #ffffff;
+	margin-right: 80px;
+	padding-bottom: 18px;
+}
+
+p
+{
+	margin-top:22px;
+}
+.conn 
+{
+	color: white;
+}
